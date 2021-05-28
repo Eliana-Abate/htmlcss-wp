@@ -56,3 +56,24 @@ a:visited {
     background-position: center;
 }
 
+.dark-cover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.spotlight-text {
+    color:white;
+    padding-left: 50px;
+    padding-top: 320px;
+    padding-right: 550px;
+}
+
+#spotlight-title {
+    font-size: 30px;
+}
+
+#spotlight-description {
+    font-size: 15px;
+}
