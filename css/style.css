@@ -3,4 +3,16 @@
     padding: 0 auto;
     box-sizing: border-box;
 }
-    
+
+.container {
+    max-width: 1200px;
+}
+
+/*HEADER*/
+header {
+    margin-bottom: 30px;
+}
+
+#logo {
+    height: 80px;
+}
