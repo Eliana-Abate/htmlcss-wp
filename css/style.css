@@ -118,14 +118,12 @@ a:visited {
 .sidebar {
     width: 20%;
     height: 100%;
-    background-color: #abcfe7;
     float: left;
 }
 
 .main-bar {
     width: calc(60% - 34px);
     height: 100%;
-    background-color: #abcfe7;
     float: left;
     margin-left: 17px;
     margin-right: 17px;
