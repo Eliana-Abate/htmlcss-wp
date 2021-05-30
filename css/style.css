@@ -86,4 +86,21 @@ a:visited {
 }
 
 /*main: second section*/ 
+.box {
+    width: 100%;
+    height: 600px;
+    font-size: 30px;
+}
+
+#leadership-title {
+    color: black;
+    font-style: font-family: 'Montserrat', sans-serif;
+}
+
+#leadership-par {
+    color: #989898;
+    font-size: 15px;
+}
+
+
 
