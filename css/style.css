@@ -151,7 +151,7 @@ a:visited {
 
 #man-with-coffee {
     background-image: url(../img/banner-2.jpg);
-    background-size: cover;
+    background-size: 90%;
     background-position: center;
 }
 
