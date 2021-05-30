@@ -10,6 +10,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 
 /*HEADER*/
 header {
@@ -85,16 +91,16 @@ a:visited {
     font-size: 15px;
 }
 
-/*main: second section*/ 
+/*main: article*/ 
 .box {
     width: 100%;
-    height: 600px;
-    font-size: 30px;
+    height: 700px;
 }
 
 #leadership-title {
     color: black;
     font-style: font-family: 'Montserrat', sans-serif;
+    font-size: 30px;   
 }
 
 #leadership-par {
@@ -102,5 +108,62 @@ a:visited {
     font-size: 15px;
 }
 
+.columns {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 575px;
+}
 
+.sidebar {
+    width: 20%;
+    height: 100%;
+    background-color: #abcfe7;
+    float: left;
+}
 
+.main-bar {
+    width: calc(60% - 34px);
+    height: 100%;
+    background-color: #abcfe7;
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.banner {
+    width: 100%;
+    height: 35%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#plant {
+     background-image: url(../img/img-1.jpg);
+     background-size: 95%;
+     background-position: center;
+}
+
+#lamp {
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#man-with-coffee {
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bar-text {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+.bar-text-title {
+    color:black;
+    margin-bottom: 10px;
+}
